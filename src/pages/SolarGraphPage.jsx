@@ -4,7 +4,7 @@ import Solargraph from '../components/Solargraph'
 const SolarGraphPage = () => {
   return (
     <>
-        <div style={{display:'flex', justifyContent:'center', alignItems:'center',flexDirection:'column'}}>
+        <div style={{display:'flex', justifyContent:'center', alignItems:'center',flexDirection:'column',marginTop:'60px',}}>
             <Solargraph />
         </div>
     </>

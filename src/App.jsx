@@ -6,11 +6,13 @@ import Dashboard from './pages/Dashboard'
 import Compare from './pages/Compare'
 import SolarGraphPage from './pages/SolarGraphPage'
 import WindGraphPage from './pages/WindGraphPage'
+import Navbar from './components/navbar'
 
 function App() {
   return(
     <>
       <Router>
+      <Navbar/>
           <Routes>
             <Route path='/' element={<MapPage />} />
             {/* <Route path='/' element={<Dashboard1 />} /> */}

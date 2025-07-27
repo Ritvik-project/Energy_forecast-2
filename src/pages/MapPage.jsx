@@ -62,9 +62,9 @@ const MapPage = () => {
   }, [position]);
 
   return (
-    <div style={{ backgroundColor: 'black', height: '100%', color: 'white' }}>
+    <div style={{ backgroundColor: 'black', height: '100%', color: 'white', paddingTop: '60px' }}>
       <div style={{display:'flex',justifyContent:'center',fontFamily:'calibri',fontSize:'40px'}}>
-        <div>Energy Meter</div>    
+        <div>Geocal</div>    
       </div>
       <div style={{ display: 'flex', height: '80px', marginBottom: '4px', alignItems: 'center', justifyContent: 'center' }}>
         <input
